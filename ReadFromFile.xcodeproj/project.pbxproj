@@ -14,7 +14,7 @@
 		06794496261049F5004E11B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06794495261049F5004E11B5 /* Assets.xcassets */; };
 		06794499261049F5004E11B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06794497261049F5004E11B5 /* LaunchScreen.storyboard */; };
 		067944A226104F6B004E11B5 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067944A126104F6B004E11B5 /* TableViewController.swift */; };
-		067944A5261051F3004E11B5 /* text.txt in Sources */ = {isa = PBXBuildFile; fileRef = 067944A4261051F3004E11B5 /* text.txt */; };
+		067944CE2612D12B004E11B5 /* text.txt in Resources */ = {isa = PBXBuildFile; fileRef = 067944CD2612D12B004E11B5 /* text.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +27,7 @@
 		06794498261049F5004E11B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0679449A261049F5004E11B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		067944A126104F6B004E11B5 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
-		067944A4261051F3004E11B5 /* text.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = text.txt; sourceTree = "<group>"; };
+		067944CD2612D12B004E11B5 /* text.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = text.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +68,7 @@
 				06794495261049F5004E11B5 /* Assets.xcassets */,
 				06794497261049F5004E11B5 /* LaunchScreen.storyboard */,
 				0679449A261049F5004E11B5 /* Info.plist */,
-				067944A4261051F3004E11B5 /* text.txt */,
+				067944CD2612D12B004E11B5 /* text.txt */,
 			);
 			path = ReadFromFile;
 			sourceTree = "<group>";
@@ -133,6 +133,7 @@
 				06794499261049F5004E11B5 /* LaunchScreen.storyboard in Resources */,
 				06794496261049F5004E11B5 /* Assets.xcassets in Resources */,
 				06794494261049F3004E11B5 /* Main.storyboard in Resources */,
+				067944CE2612D12B004E11B5 /* text.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,7 +146,6 @@
 			files = (
 				06794491261049F3004E11B5 /* ViewController.swift in Sources */,
 				0679448D261049F3004E11B5 /* AppDelegate.swift in Sources */,
-				067944A5261051F3004E11B5 /* text.txt in Sources */,
 				0679448F261049F3004E11B5 /* SceneDelegate.swift in Sources */,
 				067944A226104F6B004E11B5 /* TableViewController.swift in Sources */,
 			);
