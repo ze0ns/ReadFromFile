@@ -19,7 +19,7 @@ class TableViewController: UITableViewController {
     func readFromFile (){
         if let  path = Bundle.main.path(forResource: "text", ofType: "txt"){
             if let text = try? String(contentsOfFile: path) {
-                textArray = text.components(separatedBy: "\n")
+                textArray = text.components(separatedBy: "\n\n")
                 print(#line, #function, "Loading file")
                 print(#line, #function, textArray.count)
             }
@@ -39,7 +39,7 @@ class TableViewController: UITableViewController {
 
   
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
 
         print(#line, #function, indexPath.row)
         cell.textLabel?.text = "Cell number \(indexPath.row)"
